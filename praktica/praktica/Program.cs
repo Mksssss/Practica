@@ -10,6 +10,11 @@ namespace praktica
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Ввод данных");
+            Biblio Maks = new Biblio();
+            Maks.SetInfo();
+            Maks.GetInfo();
+            Console.ReadKey();
         }
     }
 }
